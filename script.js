@@ -25,6 +25,7 @@ const MASTER_MAP = [
     {
         "groupName": "Working",
         "items":[
+            {"name": "CodeCamp", "shortcutKey": "e", "url": "https://www.freecodecamp.org/learn"},
             {"name": "ChatGPT", "shortcutKey": "a", "url": "https://chat.openai.com"},
             {"name": "GitHub", "shortcutKey": "h", "url": "https://github.com/doubledandev"}
         ]
