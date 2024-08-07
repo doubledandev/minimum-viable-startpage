@@ -13,7 +13,10 @@ body {
 
     background: var(--bg-image);
     background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-attachment: fixed;
     color: var(--text-color);
 
     font-family: 'Raleway', sans-serif;
