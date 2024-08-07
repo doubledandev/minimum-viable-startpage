@@ -1,4 +1,4 @@
-const NAME = "John";
+const NAME = "Dan";
 const WELCOME_MESSAGE_TEMPLATE = ["night", "morning", "afternoon", "evening"];
 
 // All shortcuts are in a `SHORTCUT_STARTER+shortcutKey` format. 
@@ -14,27 +14,34 @@ const SHORTCUT_TIMEOUT = 1500;
 // but intended to be used with just regular latin letters.
 const MASTER_MAP = [
     {
-        "groupName": "Studies",
+        "groupName": "Social",
         "items":[
-            {"name": "Item A", "shortcutKey": "q", "url": "https://google.com/?q=q"},
-            {"name": "Item B", "shortcutKey": "w", "url": "https://google.com/?q=w"},
-            {"name": "Item C", "shortcutKey": "e", "url": "https://google.com/?q=e"}
+            {"name": "Telegram", "shortcutKey": "t", "url": "https://web.telegram.org/a"},
+            {"name": "Gmail", "shortcutKey": "g", "url": "https://mail.google.com/mail/u/0/#inbox"},
+            {"name": "Ozon", "shortcutKey": "z", "url": "https://www.ozon.ru"},
+            {"name": "VK", "shortcutKey": "v", "url": "https://vk.com/im"}
         ]
     },
     {
-        "groupName": "Work",
+        "groupName": "Working",
         "items":[
-            {"name": "Item D", "shortcutKey": "a", "url": "https://google.com/?q=a"},
-            {"name": "Item E", "shortcutKey": "s", "url": "https://google.com/?q=s"},
-            {"name": "Item F", "shortcutKey": "d", "url": "https://google.com/?q=d"}
+            {"name": "ChatGPT", "shortcutKey": "a", "url": "https://chat.openai.com"},
+            {"name": "GitHub", "shortcutKey": "h", "url": "https://github.com/doubledandev"}
         ]
     },
     {
-        "groupName": "Personal",
+        "groupName": "Study",
         "items":[
-            {"name": "Item I", "shortcutKey": "z", "url": "https://google.com/?q=z"},
-            {"name": "Item J", "shortcutKey": "x", "url": "https://google.com/?q=x"},
-            {"name": "Item K", "shortcutKey": "c", "url": "https://google.com/?q=c"}
+            {"name": "Balonin", "shortcutKey": "b", "url": "http://livelab.spb.ru"},
+            {"name": "GUAP", "shortcutKey": "u", "url": "https://pro.guap.ru/inside/profile"}
+        ]
+    },
+    {
+        "groupName": "PirateBay",
+        "items":[
+            {"name": "Rutracker", "shortcutKey": "r", "url": "https://rutracker.org"},
+            {"name": "NoNaMe", "shortcutKey": "n", "url": "https://nnmclub.to/forum/tracker.php"},
+            {"name": "Flibusta", "shortcutKey": "f", "url": "https://flibusta.is"}
         ]
     }
 ]
